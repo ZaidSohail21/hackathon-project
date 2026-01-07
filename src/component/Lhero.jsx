@@ -1,32 +1,27 @@
-export default function Hero() {
+export default function lHero() {
   return (
     <section className="relative overflow-hidden bg-black">
       <div className="max-w-7xl mx-auto px-4 py-24">
 
-        {/* Announcement Badge */}
-        <div className="flex justify-center mb-6">
-          <span className="inline-flex items-center gap-2 rounded-full border border-gray-200 px-4 py-1 text-sm font-medium text-white bg-black">
-            🚀 New: 1000+ PLR Digital Products Added
-          </span>
-        </div>
-
+        
         {/* Main Content */}
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white">
-            Launch & scale your business{" "}
+            Discover done-for-you digital products you can {" "}
             <span className="bg-red-600 bg-clip-text text-transparent">
-              with done-for-you digital products
+              sell or use in any way
+
             </span>
           </h1>
 
           <p className="mt-6 text-lg text-white">
-            You can instantly have your own ebooks, courses, and more to sell or plug into your offers. Without high investments or months of creation.
-          </p>
+           Imagine you have more than 1000 courses, books, templates, audios, and more. Your own digital library without limits.
+           </p>
 
           {/* CTA Buttons */}
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
             <button className="rounded-xl bg-black px-8 py-3 text-white font-semibold hover:bg-gray-800 transition">
-              Explore Master Library
+              Learn more about Master Library
             </button>
             <button className="rounded-xl border border-gray-300 px-8 py-3 font-semibold text-white hover:bg-gray-100 hover:text-red-600 transition">
               View Free Resources
